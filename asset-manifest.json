@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nvard20/react-project/static/css/main.143ab4cf.chunk.css",
+    "main.js": "/Nvard20/react-project/static/js/main.2a6d11b6.chunk.js",
+    "main.js.map": "/Nvard20/react-project/static/js/main.2a6d11b6.chunk.js.map",
+    "runtime-main.js": "/Nvard20/react-project/static/js/runtime-main.5b7262c7.js",
+    "runtime-main.js.map": "/Nvard20/react-project/static/js/runtime-main.5b7262c7.js.map",
+    "static/js/2.3a50d12d.chunk.js": "/Nvard20/react-project/static/js/2.3a50d12d.chunk.js",
+    "static/js/2.3a50d12d.chunk.js.map": "/Nvard20/react-project/static/js/2.3a50d12d.chunk.js.map",
+    "index.html": "/Nvard20/react-project/index.html",
+    "static/css/main.143ab4cf.chunk.css.map": "/Nvard20/react-project/static/css/main.143ab4cf.chunk.css.map",
+    "static/js/2.3a50d12d.chunk.js.LICENSE.txt": "/Nvard20/react-project/static/js/2.3a50d12d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b7262c7.js",
+    "static/js/2.3a50d12d.chunk.js",
+    "static/css/main.143ab4cf.chunk.css",
+    "static/js/main.2a6d11b6.chunk.js"
+  ]
+}
