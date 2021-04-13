@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+
+}
+.active-header{
+  background: rgba(20,2,0,.8);
+  transition: all .5s;
+}
+.logo-link{
+    width: 130px;
+    display: block;
+    cursor: pointer;
+}
+.logo-link > img{
+    width: 100%;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+
+}
+.menu-list > li {
+    margin-right: 30px;
+    list-style: none;
+}
+.menu-list > li > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+
+.effect-5 {
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+.effect-5:before, .effect-5:after {
+  right: 0;
+  bottom: 0;
+  background: #b68734;
+}
+.effect-5:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(-100%);
+}
+.effect-5:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(100%);
+}
+.effect-5 > span {
+  display: block;
+  padding: 10px;
+}
+.effect-5 > span:before, .effect-5 > span:after {
+  left: 0;
+  top: 0;
+  background: #0883a4;
+}
+.effect-5 > span:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(100%);
+}
+.effect-5 > span:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(-100%);
+}
+.effect-5:hover:before, .effect-5:hover:after, .effect-5:hover > span:before, .effect-5:hover > span:after {
+  transform: translate(0, 0);
+}
+.effect-5:before, .effect-5:after, .effect-5 > span:before, .effect-5 > span:after {
+    content: "";
+    position: absolute;
+    transition: transform 0.5s ease;
+  }

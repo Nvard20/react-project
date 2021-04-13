@@ -1,12 +1,13 @@
 import React from 'react';
-
+import Header from '../components/Header/Header';
+import Main from '../components/Main/Main';
+import About from '../components/About/About'
 const Home = () => {
     return (
         <div>
-          <div className='box-img'>
-              <h1>Hi everyone</h1>
-        
-            </div>
+           <Header/>
+           <Main/>
+           <About/>
         </div>
     );
 }
