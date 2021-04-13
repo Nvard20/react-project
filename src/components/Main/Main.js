@@ -3,7 +3,7 @@ import './main.css';
 import {Button} from '../Button';
 const main = () => {
     return (
-        <div className='main' id="main" style={{
+        <div className='main' id="main" id="true" style={{
             background: `url('${process.env.PUBLIC_URL}/img/header-bg.jpg')`
           }} >
             <div className='text-main'>

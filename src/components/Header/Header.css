@@ -90,3 +90,16 @@
     position: absolute;
     transition: transform 0.5s ease;
   }
+  .burger{
+    display: none;
+  }
+  @media(max-width: 980px){
+    .menu{
+      display: none;
+    }
+    .burger{
+      color: white;
+    font-size: 30px;
+    display: block;
+    }
+  }

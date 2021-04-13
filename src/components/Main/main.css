@@ -16,6 +16,7 @@
 .text-main{
     max-width: 1250px;
     margin: auto;
+    padding: 0 40px;
 
 }
 .text-main > p{
