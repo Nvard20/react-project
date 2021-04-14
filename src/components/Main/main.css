@@ -34,3 +34,25 @@
     max-width: 550px;
     padding-bottom: 30px;
 }
+@media (max-width: 980px){
+    .main {
+        padding-top: 173px;
+        padding-bottom: 90px;}
+        .text-main > h1 {
+         
+          font-size: 40px;
+          max-width: 400px;
+          padding-bottom: 30px;
+      }
+      .text-main > h1 {
+        font-size: 29px;}
+}
+
+@media (max-width: 500px){
+    .text-main > h1 {
+        font-size: 29px;}
+        .main {
+            padding-top: 130px;
+            padding-bottom: 75px;
+        }
+}

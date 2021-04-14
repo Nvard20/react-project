@@ -13,6 +13,8 @@ justify-content: space-between;
 .left-box{
     max-width: 500px;
     height: 380px;
+    padding: 0 20px;
+
 }
 .left-box > img{
     width: 100%;
@@ -57,5 +59,30 @@ color: #777;
 .right-box{
     max-width: 595px;
     margin-top: 50px;
+    padding: 0 20px;
+}
+@media (max-width: 980px){
+  
+    .right-box{
+        max-width: 475px;
 
+    }
+}
+@media (max-width: 768px){
+    #about {
+       
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left-box{
+        
+    margin-top: 30px;
+    }
+    .right-box > h1{
+        font-size: 22px;
+
+    }
 }

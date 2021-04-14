@@ -28,7 +28,8 @@
 .menu-list{
     display: flex;
     align-items: center;
-
+    
+   
 }
 .menu-list > li {
     margin-right: 30px;
@@ -47,6 +48,8 @@
   display: inline-block;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+
 }
 .effect-5:before, .effect-5:after {
   right: 0;
@@ -93,13 +96,91 @@
   .burger{
     display: none;
   }
+  .list-mobile{
+    display: none;
+  
+  }
+  .close{
+    flex-direction: column;
+    margin-top: 24px;
+    width: 100%;
+    background: #89818191;
+    border-radius: 50px;
+    position: absolute;
+     left: 0;
+   display: none;
+  }
   @media(max-width: 980px){
+   
     .menu{
       display: none;
     }
     .burger{
       color: white;
     font-size: 30px;
-    display: block;
+    display: flex;
+    padding-right: 30px;
+    justify-content: flex-end;
     }
+    .header{
+      justify-content: space-between;
+      padding: 20px 0;
+      align-items: start;
+
+    }
+    .logo{
+      padding-left: 30px;
+
+    }
+  .list-mobile{
+    flex-direction: column;
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    background: #898181b5;
+    border-radius: 15px;
+    position: absolute;
+     left: 0;
+    animation: rotateMenu 400ms ease-in-out forwards;
+    transform-origin: top center
+  }
+  .menu-list > li {
+    margin-right: 0px;}
+  .navbar{
+    width: 100%;
+  }
+  .list-mobile > li, .close > li{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    list-style: none;
+    
+  }
+  .list-mobile > li > a{
+    animation: growDown .8s ease-in-out
+  }
+  @keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+@keyframes rotateMenu {
+  0% {
+      transform: rotateX(-90deg)
+  }
+  70% {
+      transform: rotateX(20deg) 
+  }
+  100% {
+      transform: rotateX(0deg) 
+  }
+}
+
+
   }
