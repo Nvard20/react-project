@@ -6,7 +6,7 @@
 .main{
     padding-top: 300px;
     padding-bottom: 300px;
-    max-width: 1920px;
+    margin: auto;
     width: 100%;
    background-repeat: no-repeat !important;
    background-size: cover !important;

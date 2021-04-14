@@ -41,7 +41,7 @@ const Header = () => {
                     <ul className='menu-list'>
                         <li ><Link to='main' className='effect-5'  spy={true} smooth={true} duration={500}><span>Home</span></Link></li>
                         <li ><Link to='about' className='effect-5'spy={true} smooth={true} duration={500}><span>About</span></Link></li>
-                        <li ><Link to='/' className='effect-5'  spy={true} smooth={true} duration={500}><span>Coffe</span></Link></li>
+                        <li ><Link to='description' className='effect-5'  spy={true} smooth={true} duration={500}><span>Coffe</span></Link></li>
                         <li><Link to='' className='effect-5'  spy={true} smooth={true} duration={500}><span>Review</span></Link></li>
                         <li ><Link to='' className='effect-5'  spy={true} smooth={true} duration={500}><span>Blog</span></Link></li>
 
@@ -52,7 +52,7 @@ const Header = () => {
                     <ul className={burger ? ' list-mobile': 'close '}>
                         <li ><Link to='main' className='effect-5' onClick={closeMobile} spy={true} smooth={true} duration={500}><span>Home</span></Link></li>
                         <li ><Link to='about' className='effect-5'onClick={closeMobile} spy={true} smooth={true} duration={500}><span>About</span></Link></li>
-                        <li ><Link to='/' className='effect-5'  spy={true} smooth={true} duration={500}><span>Coffe</span></Link></li>
+                        <li ><Link to='description' className='effect-5'  spy={true} smooth={true} duration={500}><span>Coffe</span></Link></li>
                         <li><Link to='' className='effect-5'  spy={true} smooth={true} duration={500}><span>Review</span></Link></li>
                         <li ><Link to='' className='effect-5'  spy={true} smooth={true} duration={500}><span>Blog</span></Link></li>
 
