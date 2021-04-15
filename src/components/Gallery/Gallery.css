@@ -1,0 +1,49 @@
+.left-galelry{
+    flex: 0 0 99%;
+    max-width: 99%;
+    display: flex;
+    justify-content: center;
+
+}
+.all-gallery{
+    display: flex;
+    align-items: start;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#ReactSimpleImageViewer{
+    z-index: 99999999;
+}
+
+.img-box > img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-box{
+    margin: 10px;
+    cursor: pointer;
+   display: flex;
+   flex: 0 0 29.8%;
+}
+
+
+.all-gallery > div{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: center;
+
+}
+.img-box:nth-child(1){
+    flex: 0 0 30%;
+
+}
+.img-box:nth-child(2){
+    flex: 0 0 61%;
+
+
+}
