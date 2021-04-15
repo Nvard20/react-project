@@ -21,7 +21,7 @@ const Gallery = () => {
       setIsViewerOpen(false);
     };
     return (
-        <div className='gallery'>
+        <div className='gallery' id='gallery'>
             <h1>What kind of Coffee we serve for you</h1>
             <div className='all-gallery'>
                 <div className='left-gallery'>
