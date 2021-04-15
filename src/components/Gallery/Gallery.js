@@ -22,6 +22,7 @@ const Gallery = () => {
     };
     return (
         <div className='gallery'>
+            <h1>What kind of Coffee we serve for you</h1>
             <div className='all-gallery'>
                 <div className='left-gallery'>
               
@@ -48,7 +49,7 @@ const Gallery = () => {
                 currentIndex={currentImage}
                 onClose={closeImageViewer}
                 backgroundStyle={{
-                    backgroundColor: "rgba(0,0,0,0.4)"
+                    backgroundColor: "rgba(0,0,0,0.7)"
                   }}
                 />
             )}

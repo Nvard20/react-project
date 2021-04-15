@@ -27,8 +27,17 @@
     cursor: pointer;
    display: flex;
    flex: 0 0 29.8%;
+   height: 335px;
+    transition:  all .2s ease-in;
+
 }
 
+.img-box:hover{
+
+    transform: scale(1.05);
+    box-shadow:3px 3px 5px 6px #ccc;
+   
+}
 
 .all-gallery > div{
     margin: 5px;
@@ -44,6 +53,20 @@
 }
 .img-box:nth-child(2){
     flex: 0 0 61%;
-
-
+}
+.gallery > h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    color: #f6b867;
+    padding: 0 10px;
+}
+@media (max-width: 850px){
+    .gallery > h1{
+        font-size: 22px;
+    }
+   
+   .img-box{
+       height: unset;
+   }
 }
