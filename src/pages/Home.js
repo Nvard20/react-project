@@ -4,14 +4,16 @@ import Main from '../components/Main/Main';
 import About from '../components/About/About'
 import Description from '../components/Description/Description';
 import Gallerry from '../components/Gallery/Gallery';
+import Footer from '../components/Footer/Footer';
 const Home = () => {
     return (
-        <div>
+        <div className='all-container'>
            <Header/>
            <Main/>
            <About/>
            <Description/>
            <Gallerry/>
+           <Footer />
         </div>
     );
 }

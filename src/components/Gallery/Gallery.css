@@ -11,6 +11,8 @@
     max-width: 1200px;
     margin: auto;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 #ReactSimpleImageViewer{
@@ -60,6 +62,12 @@
     margin-bottom: 25px;
     color: #f6b867;
     padding: 0 10px;
+}
+.gallery{
+    background: #e8e6e6;
+    padding-top: 90px;
+    padding-bottom: 75px;
+
 }
 @media (max-width: 850px){
     .gallery > h1{
