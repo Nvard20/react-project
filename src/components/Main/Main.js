@@ -1,6 +1,8 @@
 import React from 'react';
 import './main.css';
 import {Button} from '../Button';
+
+
 const main = () => {
     return (
         <div className='main' id="main" id="true" style={{
@@ -8,7 +10,13 @@ const main = () => {
           }} >
             <div className='text-main'>
                 <p>NOW YOU CAN FEEL THE ENERGY</p>
+               
                 <h1>Start your day with a black Coffee</h1>
+               
+                    <h1 className='bounceInLeft'>
+                        hello world ;)
+                    </h1>
+              
                 <Button  >Buy now</Button>
             </div>
         </div>
