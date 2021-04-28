@@ -50,7 +50,7 @@ footer{
 .footer-inside{
     display: flex;
     justify-content: space-around;
-    margin-top: 59px;
+
 }
 .send{
     display: flex;
@@ -96,7 +96,7 @@ footer{
         flex-direction: column-reverse;
         justify-content: start;
         align-items: center;
-        margin-top: 161px;
+     
         padding: 0 40px;
 
     }
@@ -104,15 +104,10 @@ footer{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 42px;
-
-    }
-    footer {
+        margin-top: 10px;
+    } 
+    footer{
+        padding-top: 50px;
         margin-top: 0px;
-    }    
-    
-}
-@media (max-width: 500px){
-    footer {
-        margin-top: -55px;}
+    }
 }

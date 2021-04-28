@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div id='about'>
             <div className='left-box'>
-                <img src={process.env.PUBLIC_URL + '/img/cup.jpg'} />
+                <img src={process.env.PUBLIC_URL + '/img/unnamed.gif'} />
             </div>
             <div className='right-box'>
                 <h6>LIVE COFFEE MAKING PROCESS</h6>

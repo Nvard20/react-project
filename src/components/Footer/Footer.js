@@ -10,7 +10,7 @@ import {AiOutlineBehance} from 'react-icons/ai';
 const Footer = () => {
     return (
         <footer style={{
-            background: `url('${process.env.PUBLIC_URL}/img/footer-bg.jpg')`
+            background: `url('${process.env.PUBLIC_URL}/img/footer.jpg')`
           }}>
            <div className='footer-inside'>
                 <div className='footer-box'>
